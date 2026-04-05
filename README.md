@@ -18,7 +18,6 @@
 
 - [Problem Statement](#-problem-statement)
 - [How It Works](#-how-it-works)
-- [Tech Stack](#-tech-stack)
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
 - [Usage](#-usage)
@@ -55,21 +54,6 @@ Attacker / Bot                 NetSentry Honeypot
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Backend | Python 3.10+, Flask |
-| Database | SQLite (dev) / MySQL (prod) |
-| Frontend | HTML5, Bootstrap 5, Montserrat font |
-| CAPTCHA | Custom server-side image generation |
-| Email Alerts | Gmail SMTP (App Passwords) |
-| Packet Analysis | Scapy, Wireshark |
-| Bot Simulation | Selenium WebDriver, Python `requests` |
-| Containerization | Docker (optional) |
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -88,7 +72,6 @@ Network-Security-Honeypot/
 │
 ├── static/                              # Static assets served by Flask
 │   ├── css/                             # Stylesheets (Bootstrap overrides, custom styles)
-│   ├── js/                              # Client-side JavaScript
 │   └── images/                          # Product images and site assets
 │
 ├── templates/                           # Jinja2 HTML templates
